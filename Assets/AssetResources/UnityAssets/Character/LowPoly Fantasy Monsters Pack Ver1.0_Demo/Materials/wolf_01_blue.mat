@@ -7,13 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: goblin_02
+  m_Name: wolf_01_blue
   m_Shader: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _EMISSION
-  - _GLOSSYREFLECTIONS_OFF
   - _NORMALMAP
   m_InvalidKeywords: []
   m_LightmapFlags: 1
@@ -27,7 +26,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: a583a5c9c2ecc7a44918af2c0fabff1d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4be2b6b64e55c75469c632475750bc6a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cube:
@@ -55,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4e26755e95ca0154bb9330cfa4ac9f4a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1fd5c7a653ba0c84c9aebc65064e6ebb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -77,22 +76,22 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 0
+    - _Glossiness: 0.4
+    - _GlossyReflections: 1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _Shininess: 0.2636681
+    - _Shininess: 0.09306367
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0.13062668, a: 1}
+    - _Color: {r: 0.5330188, g: 0.5794446, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectColor: {r: 1, g: 1, b: 1, a: 0}
-    - _SpecColor: {r: 0.20069203, g: 0.21095335, b: 0.2352941, a: 1}
+    - _SpecColor: {r: 0.058823526, g: 0.058823526, b: 0.058823526, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

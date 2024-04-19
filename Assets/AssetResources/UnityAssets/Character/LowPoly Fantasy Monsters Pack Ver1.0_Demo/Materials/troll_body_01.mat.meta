@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f4864ffb159f30048a3bdafeae646afb
+guid: ec7b940140fe1fd48b9583049be0fe7b
 NativeFormatImporter:
   userData: 
   assetBundleName: 
@@ -9,5 +9,5 @@ AssetOrigin:
   productId: 98393
   packageName: LowPoly Fantasy Monsters Pack Ver1.0_DEMO
   packageVersion: 1.01
-  assetPath: Assets/LowPoly Fantasy Monsters Pack Ver1.0_Demo/Prefabs/wolf_02_Mecanim.prefab
+  assetPath: Assets/LowPoly Fantasy Monsters Pack Ver1.0_Demo/Materials/troll_body_02.mat
   uploadId: 218625
