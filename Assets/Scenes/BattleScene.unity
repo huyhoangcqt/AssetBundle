@@ -1606,6 +1606,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6171106325127411971, guid: 70679a4005888674bb8a946aa80c4d7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171106325127411971, guid: 70679a4005888674bb8a946aa80c4d7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171106325127411971, guid: 70679a4005888674bb8a946aa80c4d7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171106325127411971, guid: 70679a4005888674bb8a946aa80c4d7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171106325127411971, guid: 70679a4005888674bb8a946aa80c4d7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3716,6 +3736,10 @@ PrefabInstance:
     - target: {fileID: 2258258463732087361, guid: cfddd4265e2f5324c94da2183765151c, type: 3}
       propertyPath: m_Name
       value: EnemyLineup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2258258463732087361, guid: cfddd4265e2f5324c94da2183765151c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8768149039415023921, guid: cfddd4265e2f5324c94da2183765151c, type: 3}
       propertyPath: m_LocalPosition.x
