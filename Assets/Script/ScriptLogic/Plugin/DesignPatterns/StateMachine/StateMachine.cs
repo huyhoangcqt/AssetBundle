@@ -66,18 +66,18 @@ public static class StateMachineExtension
     }
 
     //Scene
-    public static void RegisterState(this StateMachine machine, Scene name, BaseState state)
-    {
-        machine.RegisterState(name.ToString(), state);
-    }
+    // public static void RegisterState(this StateMachine machine, Scene name, BaseState state)
+    // {
+    //     machine.RegisterState(name.ToString(), state);
+    // }
 
-    public static void RemoveState(this StateMachine machine, Scene name)
-    {
-        machine.RemoveState(name.ToString());
-    }
+    // public static void RemoveState(this StateMachine machine, Scene name)
+    // {
+    //     machine.RemoveState(name.ToString());
+    // }
 
-    public static void ChangeState(this StateMachine machine, Scene name)
-    {
-        machine.ChangeState(name.ToString());
-    }
+    // public static void ChangeState(this StateMachine machine, Scene name)
+    // {
+    //     machine.ChangeState(name.ToString());
+    // }
 }

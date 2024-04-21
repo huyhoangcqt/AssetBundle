@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class GameLauncher : MonoBehaviour
 {
+    private static GameLauncher _instance;
+    public static GameLauncher Instance => _instance;
+    private void Awake() {
+        _instance = this;
+    }
+    
     // Start is called before the first frame update
     void Start()
     {

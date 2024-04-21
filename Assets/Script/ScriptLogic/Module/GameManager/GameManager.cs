@@ -21,6 +21,7 @@ public class GameManager : Singleton<GameManager>
         mMachine = new StateMachine();
         mMachine.RegisterState(GameState.Main, new GameMainState());
         mMachine.RegisterState(GameState.Battle, new GameBattleState());
+
     }
 
     public void Start()
