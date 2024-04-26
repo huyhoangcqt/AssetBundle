@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5661052608575697823}
+  - {fileID: 7889247794677211679}
   m_Father: {fileID: 5932861778461316973}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7116366341309526025
@@ -128,7 +128,7 @@ Transform:
   - {fileID: 3937688671121823229}
   m_Father: {fileID: 5719671008179438542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &5661052608575760713
+--- !u!1001 &7889247794677151945
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -138,7 +138,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 165622, guid: af3d53329e43c99478d47eb6e1a5b0e3, type: 3}
       propertyPath: m_Name
-      value: Hobgoblin_002
+      value: hobgoblin_01
       objectReference: {fileID: 0}
     - target: {fileID: 465622, guid: af3d53329e43c99478d47eb6e1a5b0e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -185,8 +185,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af3d53329e43c99478d47eb6e1a5b0e3, type: 3}
---- !u!4 &5661052608575697823 stripped
+--- !u!4 &7889247794677211679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465622, guid: af3d53329e43c99478d47eb6e1a5b0e3, type: 3}
-  m_PrefabInstance: {fileID: 5661052608575760713}
+  m_PrefabInstance: {fileID: 7889247794677151945}
   m_PrefabAsset: {fileID: 0}

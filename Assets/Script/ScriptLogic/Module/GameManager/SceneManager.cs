@@ -65,6 +65,7 @@ public class SceneMgr : Singleton<SceneMgr>
         //Load new Scene first
         yield return _LoadSceneAsync(loadedSceneName, null);
         mCurrent = newScene;
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(newScene.ToString()));
 
         // then Unload Old scene
         if (crrSceneName != "GameMgrScene"){

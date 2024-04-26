@@ -18,5 +18,7 @@ public class LineUpMgr : Singleton<LineUpMgr>
         GameObject enemyLineupNode = GameObject.Find(GameNode.BattleSceneNode.EnemyLineup);
         playerLineup = new LineUp(playerLineupNode);
         enemyLineup = new LineUp(enemyLineupNode);
+        playerLineup.HideShowObjects();
+        enemyLineup.HideShowObjects();
     }
 }

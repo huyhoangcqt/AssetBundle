@@ -125,10 +125,10 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9164336482799897463}
+  - {fileID: 5312896464985141267}
   m_Father: {fileID: 8285933991204717111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &9164336482800242393
+--- !u!1001 &5312896464984798653
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -136,47 +136,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 163796018000676825}
     m_Modifications:
-    - target: {fileID: 143816, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 143816, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_Name
-      value: troll_02_01_Mecanim
+      value: troll_03
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
+    - target: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -184,9 +184,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
---- !u!4 &9164336482799897463 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
+--- !u!4 &5312896464985141267 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
-  m_PrefabInstance: {fileID: 9164336482800242393}
+  m_CorrespondingSourceObject: {fileID: 443822, guid: 8217d72b62c896a4cb9fbb85ac69ea23, type: 3}
+  m_PrefabInstance: {fileID: 5312896464984798653}
   m_PrefabAsset: {fileID: 0}

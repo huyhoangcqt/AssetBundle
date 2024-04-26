@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEditor;
 using System;
+using System.Collections.Generic;
+using ExcelData;
 
 public class SpawnManager : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class SpawnManager : MonoBehaviour
     public void SpawnMap(string path)
     {   
         GameObject mapNode = GameObject.Find(GameNode.BattleSceneNode.MapNode);
-        AssetDatabaseMgr.LoadAsyncGameObject(path, (mapAsset) => {
+        AssetLoader.LoadAssetAsync<GameObject>(path, (mapAsset) => {
             GameObject mapClone = Instantiate(mapAsset, mapNode.transform);
             mapClone.transform.parent = mapNode.transform;
         });
@@ -26,33 +28,37 @@ public class SpawnManager : MonoBehaviour
         // StartCoroutine(_LoadAsync(path, out loadedObject));
     }
 
-    // private IEnumerator _SpawnMapAsync(string path)
-    // {
-        
-    // }
+    public void SpawnUserLineup()
+    {
+        List<string> lineupData = LocalDataMgr.Instance.userLineup.userLineup;
+        List<Transform> pos = LineUpMgr.Instance.playerLineup.position;
 
-    // private IEnumerator _LoadAsync(string path, out UnityEngine.Object loadedObject)
-    // {
-    //     yield return null;
-    //     mapNode = GameObject.Find(GameNode.BattleSceneNode.MapNode);
+        for (int i = 0; i < LineUp.NUM; i++){
+            string charKey = lineupData[i];
+            string prefab = Character.GetItem(charKey).prefab;
+            GameObject charPrefab = AssetDatabaseMgr.Instance.GetCharacter(prefab);
+            GameObject charModel = Instantiate(charPrefab, pos[i]);
+            charModel.transform.parent = pos[i];
+        }
+    }
 
-    //     //Load
-    //     // This will load all objects in the fbx and return a single Mesh object.
-    //     var obj = AssetDatabase.LoadAssetAtPath(path, );
+    public void SpawnMonsterLineup()
+    {
+        var key = UICacheData.selectedStage;
+        var stageCfg = Stage.GetItem(key);
+        string[] lineupData = stageCfg.lineup.Split('+');
+        List<Transform> pos = LineUpMgr.Instance.enemyLineup.position;
 
-    //     AssetDatabase.TryGetGUIDAndLocalFileIdentifier(obj, out string guid, out long localId);
-
-    //     // GameObject mapPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(path) as GameObject;
-    //     AssetDatabaseLoadOperation op = AssetDatabase.LoadObjectAsync(path, localId);
-
-    //     // yield until the operation is completed
-    //     while (!op.isDone)
-    //         yield return null;
-
-    //     loadedObject = op.LoadedObject;
-
-    //     GameObject mapClone = Instantiate(mapPrefab, mapNode.transform);
-    //     mapClone.transform.parent = transform;
-    // }
+        for (int i = 0; i < LineUp.NUM; i++){
+            string monsterKey = lineupData[i];
+            if (!String.IsNullOrEmpty(monsterKey)){
+                var prefab = Monster.GetItem(monsterKey).prefab;
+                GameObject monsterPrefab = AssetDatabaseMgr.Instance.GetMonster(prefab);
+                // Debuger.Log("monsterPrefab == null? " + (monsterPrefab == null) + " or pos[" + i + "] == null? " + (pos[i] == null));
+                GameObject monsterModel = Instantiate(monsterPrefab, pos[i]);
+                monsterModel.transform.parent = pos[i];
+            }
+        }
+    }
 
 }

@@ -33,4 +33,9 @@ public class GameManager : Singleton<GameManager>
     {
         mMachine.ChangeState(GameState.Battle);
     }
+
+    public void GoHome()
+    {
+        mMachine.ChangeState(GameState.Main);
+    }
 }

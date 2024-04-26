@@ -29,7 +29,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 101787064098571702}
+  - {fileID: 7030110041478142305}
   m_Father: {fileID: 1489825625349241999}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4466779928440060999
@@ -128,7 +128,7 @@ Transform:
   - {fileID: 7906016941000973048}
   m_Father: {fileID: 1006382828208743708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &101787064098623840
+--- !u!1001 &7030110041477828023
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -138,7 +138,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 180470, guid: f4864ffb159f30048a3bdafeae646afb, type: 3}
       propertyPath: m_Name
-      value: wolf_02_Mecanim
+      value: wolf_02
       objectReference: {fileID: 0}
     - target: {fileID: 480470, guid: f4864ffb159f30048a3bdafeae646afb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -185,8 +185,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4864ffb159f30048a3bdafeae646afb, type: 3}
---- !u!4 &101787064098571702 stripped
+--- !u!4 &7030110041478142305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 480470, guid: f4864ffb159f30048a3bdafeae646afb, type: 3}
-  m_PrefabInstance: {fileID: 101787064098623840}
+  m_PrefabInstance: {fileID: 7030110041477828023}
   m_PrefabAsset: {fileID: 0}

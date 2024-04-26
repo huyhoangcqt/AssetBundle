@@ -29,11 +29,11 @@ public class LineUp
         // middleColumn  new List<Transform>();
         // rightColumn = new List<Transform>();
         Transform pos0 = mTransform.Find("FrontRow/0/model_rotation");
-        Transform pos1 = mTransform.Find("FrontRow/1/model_rotation");
-        Transform pos2 = mTransform.Find("FrontRow/2/model_rotation");
-        Transform pos3 = mTransform.Find("BackRow/3/model_rotation");
-        Transform pos4 = mTransform.Find("BackRow/4/model_rotation");
-        Transform pos5 = mTransform.Find("BackRow/5/model_rotation");
+        Transform pos1 = mTransform.Find("FrontRow/1/model_rotation (1)");
+        Transform pos2 = mTransform.Find("FrontRow/2/model_rotation (2)");
+        Transform pos3 = mTransform.Find("BackRow/3/model_rotation (3)");
+        Transform pos4 = mTransform.Find("BackRow/4/model_rotation (4)");
+        Transform pos5 = mTransform.Find("BackRow/5/model_rotation (5)");
         position.Add(pos0);
         position.Add(pos1);
         position.Add(pos2);

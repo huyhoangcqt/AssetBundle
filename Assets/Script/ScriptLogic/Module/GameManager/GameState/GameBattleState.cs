@@ -9,8 +9,22 @@ public class GameBattleState : BaseState
     {
         Debuger.Log("GameBattleState Enter");
         SceneMgr.Instance.ChangeSceneAsync(Scene.BattleScene, () => {
-            CoroutineManager.startCoroutine(_LoadMapAndMonster());
+            CoroutineManager.startCoroutine(_PreLoadAssets());
         });
+    }
+
+    IEnumerator _PreLoadAssets()
+    {
+        AssetDatabaseMgr.Instance.LoadAllCharacters();
+        yield return null;
+        yield return null;
+        AssetDatabaseMgr.Instance.LoadAllMonster();
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return null;
+        yield return _LoadMapAndMonster();
+        yield return null;
     }
 
     IEnumerator _LoadMapAndMonster()
@@ -18,9 +32,10 @@ public class GameBattleState : BaseState
         string mapAssetPath = "Assets/HotupdateAssets/Prefabs/Map/Map_001.prefab";
         SpawnManager.Instance.SpawnMap(mapAssetPath);
         yield return null;
-        // SpawnManager.Instance.UserLineup();
+        SpawnManager.Instance.SpawnUserLineup();
         yield return null;
-        // SpawnManager.Instance.LoadMonsterLineup();
+        SpawnManager.Instance.SpawnMonsterLineup();
+        yield return null;
     }
     
     protected override void onLeave()

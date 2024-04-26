@@ -125,10 +125,10 @@ Transform:
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9164336482799897463}
+  - {fileID: 576521902422296100}
   m_Father: {fileID: 8285933991204717111}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &9164336482800242393
+--- !u!1001 &576521902422213514
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -138,7 +138,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 143816, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
       propertyPath: m_Name
-      value: troll_02_01_Mecanim
+      value: troll_02
       objectReference: {fileID: 0}
     - target: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -185,8 +185,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
---- !u!4 &9164336482799897463 stripped
+--- !u!4 &576521902422296100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 443822, guid: 2e6391b851bd6104aa35c25d824e40b1, type: 3}
-  m_PrefabInstance: {fileID: 9164336482800242393}
+  m_PrefabInstance: {fileID: 576521902422213514}
   m_PrefabAsset: {fileID: 0}

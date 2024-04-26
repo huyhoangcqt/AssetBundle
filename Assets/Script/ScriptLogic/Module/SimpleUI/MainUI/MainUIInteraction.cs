@@ -15,12 +15,4 @@ public class MainUIInteraction : MonoBehaviour
         Debug.Log("OnPlayButtonClicked!");
         GameManager.Instance.StartBatte();
     }
-    public void OnBagButtonClicked()
-    {
-        Debug.Log("OnBagButtonClicked!");
-    }
-    public void OnSettingsButtonClicked()
-    {
-        Debug.Log("OnSettingsButtonClicked!");
-    }
 }
